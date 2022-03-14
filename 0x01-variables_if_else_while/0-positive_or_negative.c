@@ -1,29 +1,29 @@
 #include <stdlib.h>
-#include <time.h)
-#include <stdio.h>
+#include <time.h>
+#include <studio.h>
 
 /**
  *main-Entry point
  *
- *returns: Always 0(Success)
+ *Return: Always  (Success)
  */
 int main(void)
+{
 
-int n;
+      int n, 1;
 
-srand(time(0));
-n = rand() -RAND_MAX/2;
+     srand(time(0));
+     n = rand() - RAND_MAX / 2;
 
-if (n==o)
 
-printf("%1 is zero\n",n;
+     l =n % 10;
+     if (1>5)
+           printf("last digit of %d is %d and is greater than 5\n",n,1);
+     else if (1==0)
+           printf("last digit of %d is %d and is 0\n",n,1);
+      else
+           printf("last digit of %d is %d and is less than 6and not 0/n",n,1);
 
-else if (n<0)
+      return(0)
 
-printf("%1 is negative\n",n);
-
-else
-
-printf("%1 is positive\n",n);
-
-return (0);
+}
