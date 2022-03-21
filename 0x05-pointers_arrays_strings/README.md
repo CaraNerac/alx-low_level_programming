@@ -1,0 +1,1 @@
+reame pointers arrays strings
