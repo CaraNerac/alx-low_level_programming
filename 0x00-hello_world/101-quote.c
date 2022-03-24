@@ -1,17 +1,18 @@
+#include <stdio.h>
+#include <string.h>
 #include <unistd.h>
 /**
- *main-Entry point
- *
- *Description:place our quote to stderr
- *instead of stdout
- *
- *Return:1 always (Success)
+ * main - main block
+ * Return: 1
  */
-int main(void);
+int main(void)
 {
-  
-        char *quote = "and that piece of art is useful\" - Dora Korpar,2015-1019\n";
-  
-        write(2,quote,59);
-        return (1)
- }
+	int s;
+
+	s = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+
+	write(2,
+	      "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	      s);
+	return (1);
+}

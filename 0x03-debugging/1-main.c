@@ -2,28 +2,23 @@
 
 /**
  * main - causes an infinite loop
- * return: 0
+ * Return: 0
  */
 
 int main(void)
 {
-int i;
+	int i;
 
-printf("infinite loop incoming :(\n");
+	printf("Infinite loop incoming :(\n");
 
-i = 0;
+	i = 0;
+	/*
+	 *while (i < 10)
+	 *{
+	 *		putchar(i);
+	 *}
+	 */
+	printf("Infinite loop avoided! \\o/\n");
 
-/*
- *while (i < 10)
- *{
-
- *infinite loop - No increase of variable
- *putchar(i);
-}
-*/
-
-printf("infinite loop avoided! \\o/\n");
-
-return (0);
-
+	return (0);
 }
