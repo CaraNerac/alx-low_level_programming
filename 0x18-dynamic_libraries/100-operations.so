@@ -1,3 +1,17 @@
-#include <stdio.h>#include <stdio.h>
-
-
+#include <stdio.h>
+int add.c (a,b)
+{
+return (a+b)
+}
+int sub.c (a,b)
+{
+return (a-b)
+}
+int mul.c (a,b)
+{
+return (a*b)
+}
+int div.c (a,b)
+{
+return (a/b)
+}
