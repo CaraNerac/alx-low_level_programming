@@ -1,5 +1,15 @@
 #include <stdio.h>
-int mod (int a,int b)
+
+/**
+ * add - Adds two integers and returns
+ * the result.
+ *
+ * @a: number one.
+ * @b: number two.
+ *
+ * Return: Add of number one and number two.
+ */
+int mod(int a, int b)
 {
-return (a%b);
+	return (a % b);
 }
