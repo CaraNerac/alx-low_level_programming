@@ -1,6 +1,5 @@
 #include <stdio.h>
-int add (a,b)
+int add (int a,int b)
 {
-return (a
-return (a+b)
+return (a+b);
 }

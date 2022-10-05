@@ -1,5 +1,5 @@
 #include <stdio.h>
-int sub (a,b)
+int sub (int a,int b)
 {
-return (a-b)
+return (a-b);
 }
